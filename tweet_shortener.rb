@@ -43,7 +43,7 @@ def shortened_tweet_truncator(tweet)
     tweet[1,140] 
       puts tweet + end
   
-  
+  end
 end  
 
 
