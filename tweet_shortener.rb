@@ -1,3 +1,5 @@
+require 'pry'
+
 def dictionary
   dictionary = {
     "hello" => "hi",
@@ -45,6 +47,7 @@ def shortened_tweet_truncator(tweet)
       puts tweet
   else
     tweet
+    binding.pry
   end
 end  
 
