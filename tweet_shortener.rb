@@ -47,8 +47,9 @@ def shortened_tweet_truncator(tweet)
       puts tweet
   else
     tweet
-    binding.pry
+    
   end
+  binding.pry
 end  
 
 
