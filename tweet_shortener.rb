@@ -1,4 +1,3 @@
-require 'pry'
 
 def dictionary
   dictionary = {
@@ -40,14 +39,12 @@ def selective_tweet_shortener(tweet)
 end
 
 def shortened_tweet_truncator(tweet)
- ed = "..."
  word_substituter(tweet)
   if tweet > 140
-    tweet[137] = ed
+    tweet = tweet[137] + "..."
       puts tweet
   else
     tweet
-    binding.pry
   end
 end  
 
